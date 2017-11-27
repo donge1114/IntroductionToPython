@@ -68,7 +68,7 @@ bing = rg.SimpleTurtle('turtle')
 bing.pen = rg.Pen('yellow', 5)
 bing.speed = 10
 
-size = 180
+size = 160
 for k in range (8):
     bing.draw_circle(size)
     bing.pen_up()
