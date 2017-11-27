@@ -34,7 +34,7 @@ window = rg.TurtleWindow()
 
 jia = rg.SimpleTurtle('turtle')
 jia.pen = rg.Pen('green', 3)
-jia.speed = 12
+jia.speed = 10
 jia.left(90)
 jia.forward(50)
 
@@ -50,7 +50,7 @@ for k in range (15):
 
 yi = rg.SimpleTurtle('turtle')
 yi.pen = rg.Pen('red', 5)
-yi.speed = 12
+yi.speed = 10
 yi.right(90)
 yi.forward(50)
 
@@ -66,7 +66,7 @@ for k in range (16):
 
 bing = rg.SimpleTurtle('turtle')
 bing.pen = rg.Pen('yellow', 5)
-bing.speed = 15
+bing.speed = 10
 
 size = 180
 for k in range (8):
@@ -90,7 +90,7 @@ for k in range (8):
 
 ding = rg.SimpleTurtle('turtle')
 ding.pen = rg.Pen('orange', 4)
-ding.speed = 15
+ding.speed = 10
 
 size = 160
 for k in range (14):
