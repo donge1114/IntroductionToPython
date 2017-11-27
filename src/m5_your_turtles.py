@@ -34,11 +34,11 @@ window = rg.TurtleWindow()
 
 jia = rg.SimpleTurtle('turtle')
 jia.pen = rg.Pen('green', 3)
-jia.speed = 10
+jia.speed = 12
 jia.left(90)
 jia.forward(50)
 
-size = 250
+size = 100
 for k in range (15):
     jia.draw_circle(size)
     jia.pen_up()
@@ -46,7 +46,60 @@ for k in range (15):
     jia.forward(10)
     jia.left(45)
     jia.pen_down()
-    size = size-15
+    size = size-5
 
+yi = rg.SimpleTurtle('turtle')
+yi.pen = rg.Pen('red', 5)
+yi.speed = 12
+yi.right(90)
+yi.forward(50)
+
+size = 150
+for k in range (16):
+    yi.draw_circle(size)
+    yi.pen_up()
+    yi.right(45)
+    yi.forward(10)
+    yi.left(45)
+    yi.pen_down()
+    size = size-10
+
+bing = rg.SimpleTurtle('turtle')
+bing.pen = rg.Pen('yellow', 5)
+bing.speed = 15
+
+size = 180
+for k in range (8):
+    bing.draw_circle(size)
+    bing.pen_up()
+    bing.right(90)
+    bing.forward(10)
+    bing.left(45)
+    bing.pen_down()
+    size = size
+bing.pen = rg.Pen('blue',3)
+size = 90
+for k in range (8):
+    bing.draw_circle(size)
+    bing.pen_up()
+    bing.right(90)
+    bing.forward(10)
+    bing.left(45)
+    bing.pen_down()
+    size = size
+
+ding = rg.SimpleTurtle('turtle')
+ding.pen = rg.Pen('orange', 4)
+ding.speed = 15
+
+size = 160
+for k in range (14):
+    ding.draw_regular_polygon(6,size)
+    ding.pen_up()
+    ding.right(45)
+    ding.forward(10)
+    ding.left(45)
+    ding.pen_down()
+    size = size-6
 
 window.close_on_mouse_click()
